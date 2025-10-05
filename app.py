@@ -152,7 +152,7 @@ def main():
     model_eval_col = st.container(border=True, height="content")
       
     with model_eval_col:
-        st.subheader(":material/analytics: Model Evaluation", help="""The built model's performance is measured in: accuracy, the percentage of data predicted correctly; sensitivity, the percentage of data predicted correctly that belongs to positive classes; specificity, percentage of data predicted correctly that belongs to negative classes; Precision, percentage of correct positive predictions made; and the F1 score, a performance metric derived from the precision and recall of the model.
+        st.subheader(":material/analytics: Model Evaluation", help="""The built model's performance is measured in: accuracy, the percentage of data predicted correctly; sensitivity, the percentage of data predicted correctly that belongs to positive classes; specificity, percentage of data predicted correctly that belongs to negative classes; precision, percentage of correct positive predictions made; and the F1 score, a performance metric derived from the precision and recall of the model.
 
 A confusion matrix is also generated with the following values: true positives, exoplanets confirmed and classified as confirmed; true negatives, exoplanet candidates and classified as candidates; false positive, exoplanet candidates but classified as confirmed; and false negatives, exoplanets confirmed but classified as candidates. These values were obtained by comparing the predicted exoplanet disposition to the actual values in the test dataset.""")
         

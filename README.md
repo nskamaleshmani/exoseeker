@@ -45,7 +45,7 @@ streamlit run app.py
 
 2. Download the cumulative dataset from "Download Table"
 
-3. You can use the Jupyter notebook named "" to split the downloaded dataset into two files:
+3. You can use the Jupyter notebook named "create_traning_and_target_data.ipynb" to split the downloaded dataset into two files:
 - training_dataset.csv: a copy of the cumulative dataset with the last one thousand rows dropped
 - target_data.csv: the last one thousand rows of the downloaded data with the exoplanet disposition removed to be used for predictions
 

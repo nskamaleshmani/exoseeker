@@ -35,7 +35,7 @@ def model_evaluation(y_test, y_pred):
     
     ax.set_xlim(right=110) 
     ax.set_title('Model Metrics')
-    ax.legend(title='Fruit color')
+    ax.legend(title='Metrics')
 
     st.pyplot(plt)   
 

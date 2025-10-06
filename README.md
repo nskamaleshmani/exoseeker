@@ -58,7 +58,11 @@ streamlit run app.py
 
 1. Go to the exoplanet archive dataset from [Kepler Objects of Interest](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative)
 
+![NASA Exoplanet Archive](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/nasa-exoplanet-archive.png)
+
 2. Download the cumulative dataset from "Download Table"
+
+![Exoplanet Data Table](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/download-exoplanet-data-table.png)
 
 3. You can use the Jupyter notebook named "create_traning_and_target_data.ipynb" to split the downloaded dataset into two files:
 - training_dataset.csv: a copy of the cumulative dataset with the last one thousand rows dropped
@@ -66,7 +70,11 @@ streamlit run app.py
 
 4. The training dataset can then be uploaded as training data to Exoseeker
 
+![ExoSeeker Interface](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/exoseeker-interface.png)
+
 5. You can create your own custom machine learning model in the model build section, select estimators, and adjust their main hyperparameters
+
+![ExoSeeker Model Evaluation](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/exoseeker-model-evaluation.png)
 
 6. Once the model has been trained, it would be saved locally as a pickle file, and its performance would be visualized in the model evaluation
 

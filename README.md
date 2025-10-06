@@ -1,6 +1,21 @@
-# ExoSeeker
+<div align="center">
+  <h1>ExoSeeker</h1>
+  <p"><i>Finding new worlds</i></p>
+</div>
 
+<p align="center">
+  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fgospacedev%2Fexoseeker"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgospacedev%2Fexoseeker&countColor=%23263759" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" /></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>  
+</p>
+
+<p align="center">
 ExoSeeker is an interactive web user interface for creating custom machine learning models to analyze Kepler objects of interest. It empowers anyone to easily discover potential exoplanets by having a streamlined process of taking in new data, building a unique machine learning model, and generating predicted objects of interest classifications.
+</p>
 
 ## Features
 

